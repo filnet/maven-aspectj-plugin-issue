@@ -15,14 +15,13 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-			<version>1.9.7</version>
 		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
+				<groupId>dev.aspectj</groupId>
 				<artifactId>aspectj-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
