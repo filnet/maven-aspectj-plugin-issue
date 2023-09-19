@@ -9,7 +9,6 @@
 		<groupId>project</groupId>
 		<artifactId>parent</artifactId>
 		<version>1.0.0</version>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<dependencies>
@@ -21,7 +20,6 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-			<version>1.9.7</version>
 		</dependency>
 	</dependencies>
 
