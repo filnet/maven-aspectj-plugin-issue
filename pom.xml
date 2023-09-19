@@ -35,6 +35,16 @@
 						<encoding>UTF8</encoding>
 						<showCompilationChanges>true</showCompilationChanges>
 					</configuration>
+					<executions>
+						<execution>
+							<id>default-compile</id>
+							<phase>none</phase>
+						</execution>
+						<execution>
+							<id>default-testCompile</id>
+							<phase>none</phase>
+						</execution>
+					</executions>
 				</plugin>
 				<plugin>
 					<groupId>dev.aspectj</groupId>
